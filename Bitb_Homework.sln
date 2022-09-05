@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bitb_Homework", "Bitb_Homework\Bitb_Homework.vcxproj", "{D67152C6-B68F-44E7-92D2-FF4CAA139FDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D67152C6-B68F-44E7-92D2-FF4CAA139FDB}.Debug|x64.ActiveCfg = Debug|x64
+		{D67152C6-B68F-44E7-92D2-FF4CAA139FDB}.Debug|x64.Build.0 = Debug|x64
+		{D67152C6-B68F-44E7-92D2-FF4CAA139FDB}.Debug|x86.ActiveCfg = Debug|Win32
+		{D67152C6-B68F-44E7-92D2-FF4CAA139FDB}.Debug|x86.Build.0 = Debug|Win32
+		{D67152C6-B68F-44E7-92D2-FF4CAA139FDB}.Release|x64.ActiveCfg = Release|x64
+		{D67152C6-B68F-44E7-92D2-FF4CAA139FDB}.Release|x64.Build.0 = Release|x64
+		{D67152C6-B68F-44E7-92D2-FF4CAA139FDB}.Release|x86.ActiveCfg = Release|Win32
+		{D67152C6-B68F-44E7-92D2-FF4CAA139FDB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6515C01-A035-4912-9BCC-C0D484F722F7}
+	EndGlobalSection
+EndGlobal
