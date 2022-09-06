@@ -76,5 +76,21 @@ int main()
 	Vivod_Array(array1, SIZE);
 
 	///////////////////////////////////////////////////////////////////////////////////////
+	cout << "б) Измените порядок следования элементов главной диагонали на обратный.\n";
+
+	Kostil = (SIZE - 1);
+	for (int i = 0; i < SIZE; i++)
+	{
+		ReverseDiagonale[Kostil] = array2[i][i];
+		Kostil--;
+	}
+	Kostil = 0;
+	for (int i = 0; i < SIZE; i++)
+	{
+		array2[i][i] = ReverseDiagonale[Kostil];
+		Kostil++;
+	}
+	cout << "\n\nНовая матрица Б" << endl;
+	Vivod_Array(array2, SIZE);
 	return 0;
 }
