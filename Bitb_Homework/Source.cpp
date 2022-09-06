@@ -1,5 +1,27 @@
 #include <iostream>
 using namespace std;
+
+void Vivod_Array(int array[][14], int SIZE)
+{
+	for (int i = 0; i < SIZE; i++)
+	{
+		for (int j = 0; j < SIZE; j++)
+		{
+			cout << " " << array[i][j];
+		}
+		cout << endl;
+	}
+}
+void Same_Array(int SIZE, int array[][14], int array1[][14])
+{
+	for (int i = 0; i < SIZE; i++)
+	{
+		for (int j = 0; j < SIZE; j++)
+		{
+			array1[i][j] = array[i][j];
+		}
+	}
+}
 int main()
 {
 	setlocale(LC_ALL, "rus");
